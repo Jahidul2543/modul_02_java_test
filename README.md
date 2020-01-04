@@ -10,15 +10,15 @@
    You should see the repo cloned in your machine <br>
    To know your branch run bellow command, You should see your cloned branch name<br>
        
-`git branch` 
+      `git branch` 
   
 3. How to make changes and push it again in github repo? </br>
     Go to the terminal and navigate inside the cloned directory</br>
     # To add all the files</br>
     
-`git add .` </br>
-`git commit -m “Meaningful message”` </br>
-`git push -u origin YourBranchName` </br>
+     `git add .` </br>
+     `git commit -m “Meaningful message”` </br>
+     `git push -u origin YourBranchName` </br>
  
  
 
