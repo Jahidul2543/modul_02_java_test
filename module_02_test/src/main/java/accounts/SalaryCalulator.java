@@ -1,8 +1,18 @@
 package accounts;
 
-public class SalaryCalulator {
+import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
-    /**
+import db.DbConnection;
+
+public class SalaryCalulator {
+	 
+    
+	
+	/**
      * @author Jahidul Islam
      * This class should have all the method necessary to calculate salary of 10 employees
      * Create employees table in MySQL Database and store employees information in that table
@@ -11,4 +21,17 @@ public class SalaryCalulator {
      * This class consists only helper methods, you should not declare any main method here.
      * Main method is being declared in App class
      * */
+	
+	
+	
+	public  void getStudentInfoFromStudentTable() throws SQLException, ClassNotFoundException {
+
+	      try {
+	    	  List<String> list =  DbConnection.readDatabase("employee", "salary");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	      
+	    }
 }

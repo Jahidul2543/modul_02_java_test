@@ -1,0 +1,12 @@
+1. Read all the comments on all the classes carefully. Read other instructions associated to the
+   package carefully
+2. Work with definitions package later, this is theory only package
+3. math and problems packages are few java coding problems you can try yourself to solve and you are free to see
+   implementations but you should understand how it works. That will help you later. You can work with these are
+   the problems later part of the exam. First you can focus on known topics.
+4. XSLX file reader API added in utility package. Although it was taught in this part of the course explicitly but
+   implicitly I have covered it in other topics like 2D array and Java IO. So do not be heart broken try and you can fix it.
+5. To run maven project from command line you need maven to be installed and maven bin path in environment variables
+
+
+   Best of Luck!!!

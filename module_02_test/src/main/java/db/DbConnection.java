@@ -62,7 +62,19 @@ public class DbConnection {
         statement = connect.createStatement();
         resultSet = statement.executeQuery("select * from "+ tableNmae);
         list = getResultSetData(nameOfColumn1);
+        List<Integer> newList = new ArrayList<Integer>(list.size()) ;
+        for (String myInt : list) 
+        { 
+          newList.add(Integer.valueOf(myInt)); 
+                            
+         }
+        for (int i = 0; i < newList.size(); i++) {
+            int value = newList.get(i);
+                       System.out.println(value*0.65); 
+        }
+      
         return list;
+        
     }
 
     public static List<String> getResultSetData(String nameOfColumn1) throws SQLException {

@@ -1,0 +1,8 @@
+Use TestNG as testing framework
+All the unit test must have assertion in it.
+A test is never a test without validation
+You are free to do more unit testing of other packages not only mentioned two
+Use testng.xml file in test resources(You have to create it by your own) to run
+test classes together.
+Your maven project should be capable of running from command line and you must
+be aware of maven build lifecycle.
