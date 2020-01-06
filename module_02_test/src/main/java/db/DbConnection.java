@@ -38,9 +38,9 @@ public class DbConnection {
 
       Properties properties = loadProperties();
 
-        String url = properties.getProperty("MYSQL.url");
-        String userName = properties.getProperty("MYSQL.userName");
-        String passWord = properties.getProperty("MYSQL.password");
+        String url = properties.getProperty("//localhost:3306/ahad?autoReconnect=true&useSSL=false");
+        String userName = properties.getProperty("root");
+        String passWord = properties.getProperty("root");
 
          Class.forName("com.mysql.jdbc.Driver");
 
@@ -56,7 +56,7 @@ public class DbConnection {
 
     public static List<String> readDatabase(String tableNmae, String nameOfColumn1) throws SQLException, ClassNotFoundException, IOException {
 
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList();
 
         connectMySql();
         statement = connect.createStatement();
@@ -67,7 +67,7 @@ public class DbConnection {
 
     public static List<String> getResultSetData(String nameOfColumn1) throws SQLException {
 
-        List<String> dataList = new ArrayList<>();
+        List<String> dataList = new ArrayList();
 
         while (resultSet.next()){
 
@@ -84,7 +84,7 @@ public class DbConnection {
 
     public static List<String> readDatabase(String tableNmae, String nameOfColumn1,String nameOfColumn2, String nameOfColumn3) throws SQLException, ClassNotFoundException, IOException {
 
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList();
 
         connectMySql();
         statement = connect.createStatement();
@@ -95,7 +95,7 @@ public class DbConnection {
 
     public static List<String> getResultSetData(String nameOfColumn1,String nameOfColumn2, String nameOfColumn3 ) throws SQLException {
 
-        List<String> dataList = new ArrayList<>();
+        List<String> dataList = new ArrayList();
 
         while (resultSet.next()){
 
