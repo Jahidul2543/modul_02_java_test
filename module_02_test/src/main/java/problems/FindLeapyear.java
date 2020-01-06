@@ -8,12 +8,25 @@ public class FindLeapyear {
      *
      * */
     public static void main(String[] args) {
-        findLeapyear(55);
+        findLeapyear(100);
     }
 
     private static void findLeapyear(int year) {
 
 
+        
+        if(year%4==0)
+        {
+            System.out.println("Leap Year");
+        }
+        else if(year%4==0 && year%400!=0)
+        {
+            System.out.println("Not a Leap Year");
+        }
+        else
+        {
+            System.out.println(" Leap Year");
+        }
 
     }
 }

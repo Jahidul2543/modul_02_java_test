@@ -6,5 +6,10 @@ public class FindFactorials {
      * */
 
     public static void main(String[] args) {
+    	
+    	
+    	
+    	
+    	
     }
 }

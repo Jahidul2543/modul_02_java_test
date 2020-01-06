@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1170" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1170" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
+      <class name="accountstest.SalaryCalculatorTest">
+        <test-method status="PASS" signature="testSalaryCalculator()[pri:0, instance:accountstest.SalaryCalculatorTest@20398b7c]" name="testSalaryCalculator" duration-ms="1118" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalaryCalculator -->
+      </class> <!-- accountstest.SalaryCalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
