@@ -44,6 +44,7 @@ public class TwoDimensionalArrayDemo {
 				data [i][k]=sheet.getRow(i+1).getCell(k).toString();
 				System.out.println(data[i][k] + " ");
 			}
+
 		}
 	
 		return data;

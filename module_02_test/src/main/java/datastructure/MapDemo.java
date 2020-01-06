@@ -1,5 +1,8 @@
 package datastructure;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class MapDemo {
 
     /**
@@ -9,4 +12,23 @@ public class MapDemo {
      * Store map in DB
      *
      * */
+	
+	public static void main(String[] args) {
+		//HashMap<String, String> usermap = new  HashMap<String, String>();
+
+		Map<String, String> usermap = new  HashMap<String, String>();
+		usermap.put("Id", "1");
+		usermap.put("name", "Nahian");
+		usermap.put("Ciity", "Hudson");
+		System.out.println(usermap.get("Id"));
+
+		for(Map.Entry m :usermap.entrySet()) {
+			System.out.println(m.getKey()+"  " + m.getValue());
+			
+			
+		}
+
+			}
+	
+	
 }

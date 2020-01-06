@@ -8,11 +8,13 @@ public interface SymbianPhone {
      *
      * Declare 3 methods sendText(), makeCall(), contactList()
      * Can a method contains method body in Interface?
-     * Ans:
+     * Ans: Before Jdk 8 s method cant contains method body in interface. From jdk 8 a method can contains method body only for static and default method.
      *
      * */
 
     public void sendText();
 
     public void makeCall();
+    public void contactList();
+
 }
