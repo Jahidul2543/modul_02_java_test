@@ -154,7 +154,8 @@ public class DbConnection {
      * */
     public static void insertDataFromArrayListToMySql(List<String> list,String tableName, String columnName)
     {
-        try {
+        
+    	try {
             connectMySql();
 
             for(String st:list){
