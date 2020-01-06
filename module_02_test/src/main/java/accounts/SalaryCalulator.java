@@ -11,4 +11,40 @@ public class SalaryCalulator {
      * This class consists only helper methods, you should not declare any main method here.
      * Main method is being declared in App class
      * */
+    public static void main(String[]args) {
+		int age;
+		String name,address,department;
+		Employee get =new Employee();
+		System.out.println("Saman hussain:");
+		System.out.println("pakistan");
+		System.out.println("HumanResources");
+		
+		System.out.println("Fairuz Ahmed:");
+		System.out.println("Bangladesh");
+		System.out.println("Accounts");
+		
+		System.out.println("Kamrun siddika:");
+		System.out.println("Bangladesh");
+		System.out.println("Management");
+			
+		}
+	}
+public class FullTimeEmployee extends Employee{ 
+	
+	public static void main(String[]args) {
+		float salary;
+		int des;
+		System.out.println("HR Manager");
+		System.out.println("40000");
+		System.out.println("Accounts Manager");
+		System.out.println("40000");
+		System.out.println("Event Manager");
+		System.out.println("40000");
+		
+		
+		
+	}
+
+}
+
 }
