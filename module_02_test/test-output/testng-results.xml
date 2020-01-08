@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1170" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
+  <suite name="Suite" duration-ms="850" started-at="2020-01-08T00:17:26 EST" finished-at="2020-01-08T00:17:27 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1170" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
-      <class name="accountstest.SalaryCalculatorTest">
-        <test-method status="PASS" signature="testSalaryCalculator()[pri:0, instance:accountstest.SalaryCalculatorTest@20398b7c]" name="testSalaryCalculator" duration-ms="1118" started-at="2020-01-06T10:18:23 EST" finished-at="2020-01-06T10:18:24 EST">
+    <test name="Test" duration-ms="850" started-at="2020-01-08T00:17:26 EST" finished-at="2020-01-08T00:17:27 EST">
+      <class name="dbtest.DbConnectiontest">
+        <test-method status="PASS" signature="readFromTable()[pri:0, instance:dbtest.DbConnectiontest@20398b7c]" name="readFromTable" duration-ms="791" started-at="2020-01-08T00:17:26 EST" finished-at="2020-01-08T00:17:27 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSalaryCalculator -->
-      </class> <!-- accountstest.SalaryCalculatorTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- readFromTable -->
+        <test-method status="PASS" signature="testMYSQLConnectivity()[pri:0, instance:dbtest.DbConnectiontest@20398b7c]" name="testMYSQLConnectivity" duration-ms="20" started-at="2020-01-08T00:17:27 EST" finished-at="2020-01-08T00:17:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMYSQLConnectivity -->
+      </class> <!-- dbtest.DbConnectiontest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
