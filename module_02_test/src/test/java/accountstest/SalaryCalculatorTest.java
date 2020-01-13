@@ -1,4 +1,4 @@
-package accountstest;
+package test.java.accountstest;
 
 public class SalaryCalculatorTest {
 
