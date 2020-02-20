@@ -29,7 +29,7 @@ public class SalaryCalulator {
 			
 		}
 	}
-public class FullTimeEmployee extends Employee{ 
+ class FullTimeEmployee extends Employee{
 	
 	public static void main(String[]args) {
 		float salary;
@@ -47,4 +47,3 @@ public class FullTimeEmployee extends Employee{
 
 }
 
-}

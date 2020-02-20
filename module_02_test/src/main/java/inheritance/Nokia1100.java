@@ -1,6 +1,30 @@
 package inheritance;
 
-public class Nokia1100 {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Nokia1100 extends PreNokia1100 {
+    private String nameOfTheClass = "Nokia1100";
+    private int x = 0;
+    private List<PhotoGallery> galleries = new ArrayList<>();
+
+    public Nokia1100(int x) {
+        this.x = x;
+    }
+
+    @Override
+    public void display() {
+
+    }
+
+    @Override
+    public void makeCall() {
+
+    }
+
+    public void photoGallery(PhotoGallery gallery) {
+        galleries.add(gallery);
+    }
 
 
     /**
@@ -10,4 +34,4 @@ public class Nokia1100 {
      * Create default constructor and a parameterized constructor with int x parameter
      * */
 
-   }
+}
