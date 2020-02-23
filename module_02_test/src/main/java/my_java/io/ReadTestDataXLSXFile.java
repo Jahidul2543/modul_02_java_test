@@ -1,6 +1,18 @@
 package my_java.io;
 
+import utility.XLSXFileReader;
+
 public class ReadTestDataXLSXFile {
+
+    public void read(String path) {
+        XLSXFileReader reader = new XLSXFileReader();
+        try {
+            reader.setExcelFile(path);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     /**
      * @author Jahidul Islam
@@ -14,4 +26,5 @@ public class ReadTestDataXLSXFile {
      * necessary components of it.
      *
      * */
+
 }
