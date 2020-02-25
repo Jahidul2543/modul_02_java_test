@@ -19,7 +19,7 @@ public class DbConnection {
 
 
    static Connection connect = null;
-   static Statement statement = null;
+  public static Statement statement = null;
    static ResultSet resultSet = null;
    static PreparedStatement ps = null;
 
@@ -155,7 +155,7 @@ public class DbConnection {
             e.printStackTrace();
         }
     }
-    public void  insert(String tableName,String columnName,String value ){
+    public static void  insert(String tableName,String columnName,String value ){
         try {
             ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
             ps.setObject(1,value);

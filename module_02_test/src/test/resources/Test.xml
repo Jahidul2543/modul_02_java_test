@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="dbTest" verbose="1" >
+     <test name="test db">
+       <classes>
+           <class name="dbtest.DbConnectionTest"/>
+       </classes>
+     </test>
+</suite>

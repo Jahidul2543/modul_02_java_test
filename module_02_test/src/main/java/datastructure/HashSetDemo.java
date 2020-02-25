@@ -14,8 +14,8 @@ public class HashSetDemo {
         for (String s : set) {
             System.out.println("s = " + s);
         }
-        DbConnection connection = new DbConnection();
-        set.forEach(s -> connection.insert("test", "data",s));
+        DbConnection.createTableFromStringToMySql("test", "data");
+        set.forEach(s -> DbConnection.insert("test", "data",s));
 
     }
 
