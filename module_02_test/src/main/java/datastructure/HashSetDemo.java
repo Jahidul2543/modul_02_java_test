@@ -1,5 +1,7 @@
 package datastructure;
 
+import db.DbConnection;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,6 +14,8 @@ public class HashSetDemo {
         for (String s : set) {
             System.out.println("s = " + s);
         }
+        DbConnection connection = new DbConnection();
+        set.forEach(s -> connection.insert("test", "data",s));
 
     }
 
